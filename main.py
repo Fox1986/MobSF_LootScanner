@@ -16,9 +16,11 @@
 #-----------------------------------------------------------------------------------------------#
 import os
 
-listePfadeTestDateien = []
-listeErgebnisDateien = []
+listeTestDateien = []
 listeKeywords = []
+
+pfadTest = "./Testdateien/"
+pfadErgebnis = "./Ergebnisse/"
 
 
 def keywordlist():
@@ -26,35 +28,45 @@ def keywordlist():
     line = file.readlines()
     for l in line:
         word = l.strip("\n")
-        listeKeywords.append(word)
+        word2 = word.strip()
+        if word:
+            listeKeywords.append(word2)
     file.close()
 
 def findeTestdateien():
-    for file in os.listdir("./Testdateien"):
-        pfadName = "./Testdateien/" + file
-        listePfadeTestDateien.append(pfadName)
+    for file in os.listdir(pfadTest):
+        testDateien = file
+        listeTestDateien.append(testDateien)
 
 
-def erstelleErgebnisDatei():
-    for file in os.listdir("./Testdateien"):
-        newName = "Ergebnis__" + file
-        listeErgebnisDateien.append(newName)
-        newFile = open("./Ergebnisse/" + newName, "w+")
-        newFile.close()
+def erstelleErgebnisDatei(file):
+    newFile = open(pfadErgebnis + file, "w+")
+    newFile.close()
 
 
-def suche():
-    for file in listePfadeTestDateien:
-        file = open(file, "r")
-        lines = file.readlines()
-        for l in lines:
-            if "password" in l:
-                print(l)
-        file.close()
+def schreibeErgebnis(fund, datei):
+    file = open(datei, "a")
+    file.write(fund)
+
+
+def ergebnisse():
+    for file in listeTestDateien:
+        ergebnisFile = "Ergebnis__" + file
+        erstelleErgebnisDatei(ergebnisFile)
+        leseFile = open(pfadTest + file, "r")
+        lines = leseFile.readlines()
+        for w in listeKeywords:
+            schreibeErgebnis("\n" + "____________________" + w + "____________________" + "\n", pfadErgebnis + ergebnisFile)
+            for l in lines:
+                if w in l:
+                    schreibeErgebnis(l, pfadErgebnis + ergebnisFile)
+        leseFile.close()
+
+
+
 
 
 if __name__ == '__main__':
-    erstelleErgebnisDatei()
     findeTestdateien()
     keywordlist()
-    suche()
+    ergebnisse()

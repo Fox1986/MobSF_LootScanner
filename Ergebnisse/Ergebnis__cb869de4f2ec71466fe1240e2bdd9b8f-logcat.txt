@@ -1,0 +1,46 @@
+
+____________________sql____________________
+
+____________________password____________________
+10-16 01:36:07.260   521   521 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
+10-16 01:36:07.260   521   521 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
+10-16 01:36:56.288  1089  2792 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.300  1089  2792 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.312  1089  2792 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.324  1089  2792 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.331  1089  2792 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.354  1089  2792 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.364  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.374  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.403  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.411  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.413  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.419  1089  1719 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.422  1089  1719 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.425  1089  1719 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.426  1089  1719 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.443  1089  1719 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.681  1089  1688 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.693  1089  1688 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.723  1089  1688 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.770  1089  1688 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.780  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.789  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.801  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.810  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.823  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.846  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.858  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.867  1089  2847 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.876  1089  2798 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.879  1089  2798 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.895  1089  2798 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+10-16 01:36:56.903  1089  2801 I Auth    : [AuthManaged,PasswordComplexityHelperImpl] Updating password complexity components state.
+
+____________________sha256____________________
+
+____________________md5____________________
+
+____________________hardware_id____________________
+
+____________________google_id____________________
