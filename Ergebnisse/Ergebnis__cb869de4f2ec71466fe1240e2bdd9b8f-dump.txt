@@ -19,3 +19,19 @@ ____________________sha256____________________
         9: [2020-10-16 01:36:52.683] prepare took 0ms - succeeded, sql="SELECT data FROM installation_attempts WHERE 1=1 ORDER BY sha256"
 
 ____________________md5____________________
+
+____________________user id____________________
+10/16/20 5:31 AM: Adding duplicate user id: 10004 name=com.android.providers.calendar
+10/16/20 5:31 AM: Adding duplicate user id: 10009 name=com.android.providers.contacts
+10/16/20 5:31 AM: Adding duplicate user id: 10012 name=com.android.providers.media
+10/16/20 5:31 AM: Adding duplicate user id: 10009 name=com.android.providers.userdictionary
+10/16/20 5:31 AM: Adding duplicate user id: 10012 name=com.android.providers.downloads.ui
+10/16/20 5:31 AM: Adding duplicate user id: 10018 name=com.android.emergency
+10/16/20 5:31 AM: Adding duplicate user id: 10009 name=com.android.calllogbackup
+10/16/20 5:31 AM: Adding duplicate user id: 10012 name=com.android.providers.downloads
+10/16/20 5:31 AM: Adding duplicate user id: 10009 name=com.android.providers.blockednumber
+10/16/20 5:31 AM: Adding duplicate user id: 10024 name=com.android.systemui
+10/16/20 1:35 AM: Adding duplicate user id: 10075 name=com.google.android.backuptransport
+10/16/20 1:35 AM: Adding duplicate user id: 10075 name=com.google.android.gsf
+10/16/20 1:35 AM: Adding duplicate user id: 10075 name=com.google.android.gms
+10/16/20 1:35 AM: Adding duplicate user id: 10085 name=com.google.android.syncadapters.calendar
