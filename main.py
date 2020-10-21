@@ -9,7 +9,7 @@
 #                   Die Ergebnisse werden dann in einem Ordner Ergebnisse abgelegt              #
 #                   Zu jeder analysierten Datei, wird eine separate Ergebnisdatei ausgegeben    #
 # Author:           Hinrik Taeger                                                               #
-# Version:          0.0.1                                                                       #
+# Version:          0.0.2                                                                       #
 # Category:         Tool                                                                        #
 # Tested System:    Ubuntu                                                                      #
 # Date:             20.10.2020                                                                  #
@@ -29,9 +29,17 @@ def keywordlist():
     for l in line:
         word = l.strip("\n")
         word2 = word.strip()
-        if word:
-            listeKeywords.append(word2)
+        if word2 == "":
+            continue
+        elif word2[0] == "#":
+            continue
+        if word2 == "//end":
+            break
+        else:
+            if word2:
+                listeKeywords.append(word2)
     file.close()
+
 
 def findeTestdateien():
     for file in os.listdir(pfadTest):

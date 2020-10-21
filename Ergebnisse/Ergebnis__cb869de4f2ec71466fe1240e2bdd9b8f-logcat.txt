@@ -1,6 +1,4 @@
 
-____________________sql____________________
-
 ____________________password____________________
 10-16 01:36:07.260   521   521 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
 10-16 01:36:07.260   521   521 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
@@ -40,7 +38,3 @@ ____________________password____________________
 ____________________sha256____________________
 
 ____________________md5____________________
-
-____________________hardware_id____________________
-
-____________________google_id____________________

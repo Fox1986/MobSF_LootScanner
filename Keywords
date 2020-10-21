@@ -1,7 +1,25 @@
-sql
+#-----------------------------------------------------------------------------------------------#
+# Title:            Keywords.txt                                                                #
+# Description:      Diese Datei enthält die Worte nach denen gesucht werden soll	            #
+#                   Mit # werden Wörter ignoriert und nicht gesucht. Gut, wenn man aus einer	#
+#					langen Liste von Wörtern einige wenige ausschließen möchte	                #
+#                   //end lässt die suche an einer bestimmten Stelle stoppen. Gut, wenn man		#
+#					aus einer langen Liste von Wörtern nur einige wenige suchen möchte			#
+# Author:           Hinrik Taeger                                                               #
+# Version:          0.0.2                                                                       #
+# Category:         Liste                                                                       #
+# Tested System:    Ubuntu                                                                      #
+# Date:             20.10.2020                                                                  #
+#-----------------------------------------------------------------------------------------------#
+
+#sql
 password
 sha256
 md5
+
+//end
+
 hardware_id
 google_id
+
 
