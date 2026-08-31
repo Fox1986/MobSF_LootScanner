@@ -1,26 +1,58 @@
 
 ____________________password____________________
+      Action: "com.android.server.ACTION_EXPIRED_PASSWORD_NOTIFICATION"
+        com.android.server.ACTION_EXPIRED_PASSWORD_NOTIFICATION:
         reset-password
       passwordQuality=0x0
+      minimumPasswordLength=0
       passwordHistoryLength=0
+      minimumPasswordUpperCase=0
+      minimumPasswordLowerCase=0
+      minimumPasswordLetters=1
+      minimumPasswordNumeric=1
+      minimumPasswordSymbols=1
+      minimumPasswordNonLetter=0
+      maximumFailedPasswordsForWipe=0
       passwordExpirationTimeout=0
       passwordExpirationDate=0
+    mPasswordOwner=-1
         c9a19df com.android.settings/.password.SetupChooseLockGeneric
         2e9f3bf com.android.settings/.password.ConfirmDeviceCredentialActivity
         c1c4298 com.android.settings/.password.ScreenLockSuggestionActivity
+      com.google.android.gms.auth.api.credentials.SAVE_PASSWORD:
+        b6a3b67 com.google.android.gms/.auth.api.credentials.credentialsaving.ui.PasswordSavingActivity
         2e9f3bf com.android.settings/.password.ConfirmDeviceCredentialActivity
+      android.app.action.SET_NEW_PASSWORD:
         b2c7279 com.android.settings/.password.SetNewPasswordActivity
         6501a0 com.android.settings/.password.ConfirmDeviceCredentialActivity$InternalActivity
+      android.app.action.SET_NEW_PARENT_PROFILE_PASSWORD:
         b2c7279 com.android.settings/.password.SetNewPasswordActivity
+      com.google.android.gms.action.SET_NEW_PASSWORD:
+        555c039 com.google.android.gms/.auth.managed.ui.SetNewPasswordActivity
+      android.app.action.ACTION_PASSWORD_CHANGED:
+      com.google.android.gms.auth.managed.REVOKE_PASSWORD_REQUIREMENTS:
+  Permission [android.permission.GET_PASSWORD] (dc5dc37):
+    perm=Permission{fe1b5a4 android.permission.GET_PASSWORD}
+  Permission [android.permission.TEST_BLACKLISTED_PASSWORD] (9a4fb9d):
+    perm=Permission{8572812 android.permission.TEST_BLACKLISTED_PASSWORD}
+      android.permission.TEST_BLACKLISTED_PASSWORD: prot=signature, INSTALLED
+      android.permission.GET_PASSWORD: prot=signature, INSTALLED
+        com.google.android.gms.auth.managed.ui.SetNewPasswordActivity
+        com.google.android.gms.credential.manager.PasswordManagerActivity
+      android.permission.TEST_BLACKLISTED_PASSWORD: granted=true
 _id:10 name:speak_password pkg:android value:1 default:1 defaultSystemSet:true
 
 ____________________sha256____________________
         8: [2020-10-16 01:36:52.683] executeForCursorWindow took 0ms - succeeded, sql="SELECT data FROM installation_attempts WHERE 1=1 ORDER BY sha256"
         9: [2020-10-16 01:36:52.683] prepare took 0ms - succeeded, sql="SELECT data FROM installation_attempts WHERE 1=1 ORDER BY sha256"
+Domain SHA256 digest list:
+Ip SHA256 digest list:
 
 ____________________md5____________________
 
 ____________________user id____________________
+Allowed user IDs: 0
+  10-16 01:36:07 : USER_SWITCH previous allowed user IDs: <None>, current allowed user IDs: 0
 10/16/20 5:31 AM: Adding duplicate user id: 10004 name=com.android.providers.calendar
 10/16/20 5:31 AM: Adding duplicate user id: 10009 name=com.android.providers.contacts
 10/16/20 5:31 AM: Adding duplicate user id: 10012 name=com.android.providers.media
